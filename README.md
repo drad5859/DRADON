@@ -36,8 +36,8 @@ Ensure these tools are installed before running the script. You can install them
    Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/drad5859/DRADON.git
+   cd DRADON
    ```
 
 2. **Make the Script Executable**
@@ -45,7 +45,7 @@ Ensure these tools are installed before running the script. You can install them
    Give execute permissions to the script:
 
    ```bash
-   chmod +x comb.sh
+   chmod +x dradon.sh
    ```
 
 ## Usage
@@ -53,7 +53,7 @@ Ensure these tools are installed before running the script. You can install them
 Run the script with the following command:
 
 ```bash
-./comb.sh
+./dradon.sh
 ```
 
 You will be prompted to enter the following information:
@@ -79,7 +79,7 @@ The results are saved in a report file with a timestamp, containing sections for
 ## Example
 
 ```bash
-./comb.sh
+./dradon.sh
 Enter the target domain (e.g., example.com): example.com
 Enter the target URL (e.g., https://example.com): https://example.com
 Enter the path to the directory/file bruteforcing wordlist (e.g., common.txt): common.txt
